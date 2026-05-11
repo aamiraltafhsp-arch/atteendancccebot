@@ -6,7 +6,8 @@ import asyncio
 # ========================
 # BOT TOKEN
 # ========================
-TOKEN = "8681559208:AAEAW25l4RttVlW4EjAxKOs6P7Gbt1P_8WY"
+import os
+TOKEN = os.getenv("8681559208:AAEAW25l4RttVlW4EjAxKOs6P7Gbt1P_8WY")
 
 # ========================
 # STORAGE
